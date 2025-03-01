@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
  const list = document.querySelector('#list');
 
  form.addEventListener('submit', (e) => {
-  e.preventDefault();
+  e.preventDefault();jhh
   const todoText = input.value.trim();
   const todoDate = dateInput.value;
   if (todoText !== '' && todoDate !== '') {
@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
    input.value = '';
    dateInput.value = '';
   }
- });
+ })
 
  function addTodoItem(text, date) {
   const li = document.createElement('li');
