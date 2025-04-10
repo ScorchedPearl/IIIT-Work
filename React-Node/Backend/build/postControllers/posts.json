@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "hi",
+    "content": "hlo",
+    "likes": {
+      "count": 2,
+      "likedBy": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "title": "hlo",
+    "content": "ji",
+    "likes": {
+      "count": 0,
+      "likedBy": []
+    }
+  }
+]
